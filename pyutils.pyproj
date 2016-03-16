@@ -34,6 +34,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="merge.py" />
+    <Compile Include="copylist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="svn.py" />
     <Compile Include="test.py">
       <SubType>Code</SubType>
