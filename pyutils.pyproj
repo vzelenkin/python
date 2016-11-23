@@ -13,7 +13,6 @@
     <Name>pyutils</Name>
     <RootNamespace>pyutils</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>merge "c:\Work\iamap\webui" "c:\Work\html"</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -30,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="coursera\APlusB.py" />
+    <Compile Include="hr.py" />
     <Compile Include="main.py" />
     <Compile Include="help.py">
       <SubType>Code</SubType>
